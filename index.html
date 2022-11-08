@@ -9,8 +9,8 @@
 </head>
 <body>
     <div id='app'>
-        <ul v-for="mail in listMail">
-            <li v-if="listMail.length === 10" >{{mail}}</li>
+        <ul v-if="listMail.length === 10" >
+            <li v-for="mail in listMail" >{{mail}}</li>
         </ul>
     </div>
 
